@@ -8,7 +8,7 @@
  */
 
 get_header(); ?>
-
+<h1>Test</h1>
 			<section class="not-found">
 				<div class="error-404">
 					<span><?php echo esc_html__( '404', 'rara-academic' ); ?></span>
