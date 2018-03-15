@@ -98,7 +98,7 @@
 											echo '<div class="latestnews-img">';
 												echo '<a class="latestnews-img-a" href="'.get_permalink().'" title="'.get_the_title().'">';
 													if ( has_post_thumbnail() ) :
-														the_post_thumbnail();
+														the_post_thumbnail('post-thumbnail');
 													else:
 														echo '<img src="'.esc_url( get_template_directory_uri() ).'/images/blank-latestposts.png" alt="'.esc_attr( get_the_title() ).'" />';
 													endif; 
